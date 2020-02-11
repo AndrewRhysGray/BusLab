@@ -5,9 +5,9 @@ public class Bus {
     private int capacity;
     private ArrayList<Person> passengers;
 
-    public Bus (String destination){
+    public Bus (String destination, int capacity){
         this.destination = destination;
-        this.capacity = 5;
+        this.capacity = capacity;
         this.passengers = new ArrayList<Person>();
     }
 

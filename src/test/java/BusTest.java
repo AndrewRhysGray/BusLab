@@ -9,7 +9,7 @@ public class BusTest {
 
     @Before
     public void before(){
-        bus = new Bus("Edinburgh");
+        bus = new Bus("Edinburgh", 5);
 
     }
 
